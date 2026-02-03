@@ -44,4 +44,5 @@ jobs:
         #   DATABASE_URL: postgres://testuser:testpassword@localhost:5432/testdb
         #   # Add any other env vars your app needs
         run: |
-          nosetests -v --with-spec --spec-color --with-coverage --cover-package=app
+          nosetests
+          # nosetests -v --with-spec --spec-color --with-coverage --cover-package=app
