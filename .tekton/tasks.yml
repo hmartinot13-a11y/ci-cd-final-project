@@ -67,4 +67,4 @@ spec:
       image: python:3.9-slim
       script: |
         pip install flake8
-        flake8 tests --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 --count --select=E9,F63,F7,F82 --show-source --statistics
